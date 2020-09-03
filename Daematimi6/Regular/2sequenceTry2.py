@@ -5,7 +5,7 @@ num2 = 0
 num3 = 1
 num_sum = 0
 
-for i in range(n):
+for _ in range(n):
     num1, num2, num3 = num2, num3, num_sum
     num_sum = num1 + num2 + num3
     print(num_sum)
